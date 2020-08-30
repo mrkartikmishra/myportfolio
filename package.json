@@ -2,7 +2,8 @@
   "name": "my-portfolio",
   "version": "1.0.0",
   "description": "This is my portfolio website",
-  "main": "index.js",
+  "main": "main.js",
+  "homepage":"https://mrkartikmishra.github.io/myportfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
@@ -18,8 +19,8 @@
   "bugs": {
     "url": "https://github.com/mrkartikmishra/myportfolio/issues"
   },
-  "homepage": "https://github.com/mrkartikmishra/myportfolio#readme",
   "dependencies": {
-    "node-sass": "^4.11.0"
+    "gh-pages": "^3.1.0",
+    "node-sass": "^4.14.1"
   }
 }
